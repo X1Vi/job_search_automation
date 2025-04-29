@@ -66,4 +66,6 @@ def fetch_jobs_by_tech(tech: str, from_index: int = 0, size: int = 100):
         print(response.text)
 
 # Example usage:
-fetch_jobs_by_tech("rust")
+tech = "golang"
+print(f"search query: {tech}")
+fetch_jobs_by_tech(tech)
